@@ -8,7 +8,8 @@
 
 body{
     /* background-color: #DAFED8; */
-    background-image: url(Asset/wp13700181-illustrations-4k-wallpapers.jpg);
+    background-color: #F7F6F4;
+    /* background-image: url(Asset/wp13700181-illustrations-4k-wallpapers.jpg); */
     font-family: "Poppins", "Libre Baskerville", sans-serif;
     background-size: cover;
 }
@@ -32,8 +33,9 @@ a{
 
 .main-wrapper{
     border-radius: 20px;
-    height: 90vh;
-    width: 400px;
+    height: 100vh;
+    /* width: 500px; */
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
