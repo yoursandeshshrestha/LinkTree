@@ -19,7 +19,7 @@ html{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .main-container{
@@ -31,15 +31,15 @@ a{
 .main-wrapper{
     height: 100vh;
     /* border-radius: 20px; */
-    width: 500px;
-    /* width: 100%; */
+    /* width: 500px; */
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     gap: 20px;
     padding-top: 40px;
-    background-image: url(Asset/background.jpg);
+    background-image: url(Asset/backiee-119827-landscape.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -72,7 +72,9 @@ a{
 }
 
 .links{
-    background-color: #BBFFE3;
+    background-color: #C2FAFA;
+    /* background-color: #BBFFE3; */
+    color: white;
     border-radius: 30px;
     box-shadow: 10px 10px 0px -1px rgba(0, 0, 0, 0.795);
     font-size: 16px;
@@ -87,7 +89,7 @@ a{
 }
 
 .links:hover{
-    background-color: rgb(113, 249, 156);
+    background-color: #A2EDF0;
 }
 
 .links a{
