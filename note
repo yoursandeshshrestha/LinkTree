@@ -1,2 +1,12 @@
 background Color = #DAFED8
 placeholder color = #BBFFE4
+
+https://github.com/yoursandeshshrestha
+https://www.linkedin.com/in/sandesh-shrestha-b829572b0
+
+margin-bottom: 20px;
+    background-color: #BBFFE3;
+    border-radius: 30px;
+    box-shadow: 10px 10px 0px -1px rgba(0, 0, 0, 0.795);
+    font-size: 16px;
+    border: 2px solid black;
