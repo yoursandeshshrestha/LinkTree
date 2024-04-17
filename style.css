@@ -67,8 +67,17 @@ a{
 }
 
 .bio{
-    width: 300px;
+    /* width: 300px; */
     font-size: 18px;
+}
+
+.link-section{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .links{
@@ -94,4 +103,10 @@ a{
 
 .links a{
     width: 100%;
+}
+
+@media (max-width: 880px){
+    .link-section{
+        gap: 5px;
+    }
 }
