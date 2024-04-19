@@ -113,7 +113,12 @@ a{
 }
 
 @media (max-width: 880px){
-    .link-section{
-        gap: 5px;
+    .main-wrapper{
+        background:none;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border-radius: none;
+        border: none;
     }
 }
