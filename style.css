@@ -8,9 +8,14 @@
 
 body{
     font-family: "Poppins", "Libre Baskerville", sans-serif;
-    background-color: #F7F6F4;
-    /* background-color: #DAFED8; */
-    /* background-image: url(Asset/wp13700181-illustrations-4k-wallpapers.jpg); */
+    background-image: url(Asset/backiee-119827-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html{
@@ -29,20 +34,22 @@ a{
 }
 
 .main-wrapper{
-    height: 100vh;
-    /* border-radius: 20px; */
-    /* width: 500px; */
-    width: 100%;
+    height: 90vh;
+    width: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     gap: 20px;
     padding-top: 40px;
-    background-image: url(Asset/backiee-119827-landscape.jpg);
-    background-position: center;
-    background-size: cover;
     overflow: hidden;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .profile-section img{
@@ -74,7 +81,7 @@ a{
 .link-section{
     width: 80%;
     display: flex;
-    gap: 30px;
+    /* gap: 10px; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
